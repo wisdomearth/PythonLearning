@@ -13,3 +13,5 @@
   - 安装[Poetry](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions)
   > python 依赖管理工具。[官方文档](https://python-poetry.org/docs/)
   > 安装失败的看看是不是url打不开，按照上面GitHub镜像网站操作下。
+## MacOS
+> 版本 10.14.6
