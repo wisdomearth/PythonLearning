@@ -23,6 +23,6 @@
       - 进入环境：poetry shell，会打印当前虚拟环境路径：Spawning shell within xxxxx，复制xxxxx 解释器路径，下面会用到
       - 更改vscode解释器：ctrl + shift + p，输入 select interpreter 回车，输入上面复制的解释器路径，回车
       - 更改PyCharm解释器：没钱。。买不起专业版，这里也是一样更改interpreter，新增一个exist env，将路径填进去，选择里面bin/下的Python 执行文件
-  - 至此vscode 的Python 编码环境配置完毕。
+  - 至此Python 的编码环境配置完毕。
 ## MacOS
 > 版本 10.14.6
