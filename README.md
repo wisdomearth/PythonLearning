@@ -16,12 +16,12 @@
       - 设置用户默认powershell执行策略：Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
       -  为pyenv注册签名，大家可自行搜索windows脚本签名 方法，这里不再赘述
   - 安装[Poetry](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions)
-  > python 依赖管理工具。[官方文档](https://python-poetry.org/docs/)
-  > 安装失败的看看是不是url打不开，按照上面GitHub镜像网站操作下。
-  > 用法[官方文档](https://python-poetry.org/docs/basic-usage/)
-  >> 初始化环境：poetry init
-  >> 进入环境：poetry shell，会打印当前虚拟环境路径：Spawning shell within xxxxx，复制xxxxx 解释器路径，下面会用到
-  >> 更改vscode解释器：ctrl + shift + p，输入 select interpreter 回车，输入上面复制的解释器路径，回车
-  >> 至此vscode 的Python 编码环境配置完毕。
+    - python 依赖管理工具。[官方文档](https://python-poetry.org/docs/)
+    - 安装失败的看看是不是url打不开，按照上面GitHub镜像网站操作下。
+    - 用法[官方文档](https://python-poetry.org/docs/basic-usage/)
+      - 初始化环境：poetry init
+      - 进入环境：poetry shell，会打印当前虚拟环境路径：Spawning shell within xxxxx，复制xxxxx 解释器路径，下面会用到
+      - 更改vscode解释器：ctrl + shift + p，输入 select interpreter 回车，输入上面复制的解释器路径，回车
+  - 至此vscode 的Python 编码环境配置完毕。
 ## MacOS
 > 版本 10.14.6
