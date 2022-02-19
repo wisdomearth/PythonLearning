@@ -11,10 +11,10 @@
   - 安装[pyenv-win](https://github.com/pyenv-win/pyenv-win)
     - 个人比较建议使用pyenv，多环境比较干净，主要是Linux上用来控制Python多版本，Windows上可选
     - VScode 中的 PowerShell 一般默认的用户策略是Undefined(可以在powershell中执行 Get-ExecutionPolicy -List 查看),会使用Windows 默认策略Restricted代替[PowerShell 执行策略](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2),不允许未签名的脚本运行。
-  > 处理方法有3种
-  >> vscode 切换shell终端，选择gitbash
-  >> 设置用户默认powershell执行策略：Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
-  >> 为pyenv注册签名，大家可自行搜索windows脚本签名 方法，这里不再赘述
+    - 处理方法有3种
+      - vscode 切换shell终端，选择gitbash
+      - 设置用户默认powershell执行策略：Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+      -  为pyenv注册签名，大家可自行搜索windows脚本签名 方法，这里不再赘述
   - 安装[Poetry](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions)
   > python 依赖管理工具。[官方文档](https://python-poetry.org/docs/)
   > 安装失败的看看是不是url打不开，按照上面GitHub镜像网站操作下。
